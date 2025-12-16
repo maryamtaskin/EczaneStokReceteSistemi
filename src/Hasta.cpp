@@ -19,3 +19,4 @@ void Hasta::setYas(int y) { yas = y; }
 string Hasta::getAdSoyad() const { return adSoyad; }
 string Hasta::getTcKimlik() const { return tcKimlik; }
 int Hasta::getYas() const { return yas; }
+// feature/hasta-ekle branch'inde degisiklik yapildi

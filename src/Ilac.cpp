@@ -1,5 +1,5 @@
 #include "Ilac.h"
-
+//ilac tanimlamasi onun adi barkodu ve stokta ne durumda olduguna gosterir
 Ilac::Ilac() {
     ilacAdi = "";
     barkod = 0;

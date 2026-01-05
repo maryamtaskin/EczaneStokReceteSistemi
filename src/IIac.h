@@ -4,13 +4,20 @@
 #include <string>
 using namespace std;
 
+/*
+ * Ilac sinifi
+ * Eczanede bulunan ilaclara ait bilgileri tutar.
+ * Stok ve barkod islemleri bu sinif uzerinden yapilir.
+ */
 class Ilac {
 private:
+    // Ilaca ait temel bilgiler
     string ilacAdi;
     int barkod;
     int stok;
 
 public:
+    // Constructor metotlari
     Ilac();
     Ilac(string ad, int barkodNo, int adet);
 
@@ -23,7 +30,7 @@ public:
     int getBarkod() const;
     int getStok() const;
 
-    // stok islemleri
+    // Stok islemleri
     void stokArtir(int miktar);
     void stokAzalt(int miktar);
 };
